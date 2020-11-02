@@ -31,7 +31,7 @@ import (
 	"gopkg.in/square/go-jose.v2"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg/messages"
+	"github.com/al3agamy/merlin/pkg/messages"
 )
 
 // Debug puts Merlin into debug mode and displays debug messages

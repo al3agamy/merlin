@@ -55,9 +55,9 @@ import (
 	"gopkg.in/square/go-jose.v2/jwt"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg"
-	"github.com/Ne0nd0g/merlin/pkg/core"
-	"github.com/Ne0nd0g/merlin/pkg/messages"
+	"github.com/al3agamy/merlin/pkg"
+	"github.com/al3agamy/merlin/pkg/core"
+	"github.com/al3agamy/merlin/pkg/messages"
 )
 
 // GLOBAL VARIABLES
@@ -440,7 +440,7 @@ func getClient(protocol string, proxyURL string, ja3 string) (*merlinClient, err
 	// Setup TLS configuration
 	TLSConfig := &tls.Config{
 		MinVersion:         tls.VersionTLS12,
-		InsecureSkipVerify: true, // #nosec G402 - see https://github.com/Ne0nd0g/merlin/issues/59 TODO fix this
+		InsecureSkipVerify: true, // #nosec G402 - see https://github.com/al3agamy/merlin/issues/59 TODO fix this
 		CipherSuites: []uint16{
 			tls.TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,
 			tls.TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,

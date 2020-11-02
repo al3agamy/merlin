@@ -9,7 +9,7 @@ PASSWORD=merlin
 BUILD=$(shell git rev-parse HEAD)
 DIR=data/temp/v${VERSION}/${BUILD}
 BIN=data/bin/
-XBUILD=-X main.build=${BUILD} -X github.com/Ne0nd0g/merlin/pkg/agent.build=${BUILD}
+XBUILD=-X main.build=${BUILD} -X github.com/al3agamy/merlin/pkg/agent.build=${BUILD}
 URL ?= https://127.0.0.1:443
 XURL=-X main.url=${URL}
 PSK ?= merlin
@@ -94,7 +94,8 @@ agent-arm:
 # Compile Agent - Linux x64
 agent-linux:
 	export GOOS=linux;export GOARCH=amd64;go build ${LDFLAGS} ${GCFLAGS} ${ASMFLAGS} -o ${DIR}/${MAGENT}-${L} cmd/merlinagent/main.go
-
+agent-linux32:
+	export GOOS=linux;export GOARCH=386; go build ${LDFLAGS} ${GCFLAGS} ${ASMFLAGS} -o ${DIR}/${MAGENT}-${L} cmd/merlinagent/main.go
 # Compile PRISM - Linux x64
 prism-linux:
 	export GOOS=linux;export GOARCH=amd64;go build ${LDFLAGS} -o ${DIR}/PRISM-${L} cmd/prism/main.go
@@ -176,14 +177,3 @@ clean:
 
 #Build all files for release distribution
 distro: clean all package-all
-
-#Create all agents and move them to Merlin's data/bin directory; Used with Docker container
-generate-agents: agent-windows agent-dll agent-linux agent-darwin
-	mkdir -p ${BIN}windows/
-	cp ${DIR}/${MAGENT}-${W}.exe ${BIN}windows/
-	mkdir -p ${BIN}dll
-	cp ${DIR}/merlin.dll ${BIN}dll
-	mkdir -p ${BIN}linux/
-	cp ${DIR}/${MAGENT}-${L} ${BIN}linux/
-	mkdir -p ${BIN}darwin/
-	cp ${DIR}/${MAGENT}-${D} ${BIN}darwin/

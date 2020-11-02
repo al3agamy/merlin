@@ -43,10 +43,10 @@ import (
 	"go.dedis.ch/kyber/v3"
 
 	// Merlin
-	messageAPI "github.com/Ne0nd0g/merlin/pkg/api/messages"
-	"github.com/Ne0nd0g/merlin/pkg/core"
-	"github.com/Ne0nd0g/merlin/pkg/logging"
-	"github.com/Ne0nd0g/merlin/pkg/messages"
+	messageAPI "github.com/al3agamy/merlin/pkg/api/messages"
+	"github.com/al3agamy/merlin/pkg/core"
+	"github.com/al3agamy/merlin/pkg/logging"
+	"github.com/al3agamy/merlin/pkg/messages"
 )
 
 // Global Variables

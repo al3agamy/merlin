@@ -42,9 +42,9 @@ import (
 	"gopkg.in/square/go-jose.v2/jwt"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg/agent"
-	"github.com/Ne0nd0g/merlin/pkg/core"
-	"github.com/Ne0nd0g/merlin/pkg/messages"
+	"github.com/al3agamy/merlin/pkg/agent"
+	"github.com/al3agamy/merlin/pkg/core"
+	"github.com/al3agamy/merlin/pkg/messages"
 )
 
 // GLOBAL VARIABLES

@@ -35,17 +35,17 @@ import (
 	"github.com/satori/go.uuid"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg"
-	"github.com/Ne0nd0g/merlin/pkg/agents"
-	agentAPI "github.com/Ne0nd0g/merlin/pkg/api/agents"
-	listenerAPI "github.com/Ne0nd0g/merlin/pkg/api/listeners"
-	"github.com/Ne0nd0g/merlin/pkg/api/messages"
-	moduleAPI "github.com/Ne0nd0g/merlin/pkg/api/modules"
-	"github.com/Ne0nd0g/merlin/pkg/banner"
-	"github.com/Ne0nd0g/merlin/pkg/core"
-	"github.com/Ne0nd0g/merlin/pkg/logging"
-	"github.com/Ne0nd0g/merlin/pkg/modules"
-	"github.com/Ne0nd0g/merlin/pkg/servers"
+	"github.com/al3agamy/merlin/pkg"
+	"github.com/al3agamy/merlin/pkg/agents"
+	agentAPI "github.com/al3agamy/merlin/pkg/api/agents"
+	listenerAPI "github.com/al3agamy/merlin/pkg/api/listeners"
+	"github.com/al3agamy/merlin/pkg/api/messages"
+	moduleAPI "github.com/al3agamy/merlin/pkg/api/modules"
+	"github.com/al3agamy/merlin/pkg/banner"
+	"github.com/al3agamy/merlin/pkg/core"
+	"github.com/al3agamy/merlin/pkg/logging"
+	"github.com/al3agamy/merlin/pkg/modules"
+	"github.com/al3agamy/merlin/pkg/servers"
 )
 
 // Global Variables

@@ -24,10 +24,10 @@ import (
 	"time"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg/agents"
-	agentAPI "github.com/Ne0nd0g/merlin/pkg/api/agents"
-	"github.com/Ne0nd0g/merlin/pkg/api/messages"
-	"github.com/Ne0nd0g/merlin/pkg/modules"
+	"github.com/al3agamy/merlin/pkg/agents"
+	agentAPI "github.com/al3agamy/merlin/pkg/api/agents"
+	"github.com/al3agamy/merlin/pkg/api/messages"
+	"github.com/al3agamy/merlin/pkg/modules"
 )
 
 // GetModuleListCompleter return a tab completer of available modules for CLI interactions

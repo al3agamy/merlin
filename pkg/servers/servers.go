@@ -22,7 +22,7 @@ import (
 	uuid "github.com/satori/go.uuid"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg/handlers"
+	"github.com/al3agamy/merlin/pkg/handlers"
 )
 
 const (

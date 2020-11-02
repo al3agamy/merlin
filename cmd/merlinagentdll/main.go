@@ -25,7 +25,7 @@ import (
 	"strings"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg/agent"
+	"github.com/al3agamy/merlin/pkg/agent"
 )
 
 var url = "https://127.0.0.1:443"

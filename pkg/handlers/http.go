@@ -33,12 +33,12 @@ import (
 	"go.dedis.ch/kyber/v3"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg/agents"
-	messageAPI "github.com/Ne0nd0g/merlin/pkg/api/messages"
-	"github.com/Ne0nd0g/merlin/pkg/core"
-	"github.com/Ne0nd0g/merlin/pkg/logging"
-	"github.com/Ne0nd0g/merlin/pkg/messages"
-	"github.com/Ne0nd0g/merlin/pkg/util"
+	"github.com/al3agamy/merlin/pkg/agents"
+	messageAPI "github.com/al3agamy/merlin/pkg/api/messages"
+	"github.com/al3agamy/merlin/pkg/core"
+	"github.com/al3agamy/merlin/pkg/logging"
+	"github.com/al3agamy/merlin/pkg/messages"
+	"github.com/al3agamy/merlin/pkg/util"
 )
 
 // HTTPContext contains contextual information about a handler such as secrets for encrypt/decrypt

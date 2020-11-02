@@ -28,8 +28,8 @@ import (
 	"github.com/fatih/color"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg"
-	"github.com/Ne0nd0g/merlin/pkg/agent"
+	"github.com/al3agamy/merlin/pkg"
+	"github.com/al3agamy/merlin/pkg/agent"
 )
 
 // GLOBAL VARIABLES

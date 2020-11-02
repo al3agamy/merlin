@@ -44,10 +44,10 @@ import (
 	"gopkg.in/square/go-jose.v2/jwt"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg/agents"
-	"github.com/Ne0nd0g/merlin/pkg/core"
-	"github.com/Ne0nd0g/merlin/pkg/handlers"
-	"github.com/Ne0nd0g/merlin/pkg/messages"
+	"github.com/al3agamy/merlin/pkg/agents"
+	"github.com/al3agamy/merlin/pkg/core"
+	"github.com/al3agamy/merlin/pkg/handlers"
+	"github.com/al3agamy/merlin/pkg/messages"
 )
 
 func (ts *TestServer) handler(w http.ResponseWriter, r *http.Request) {

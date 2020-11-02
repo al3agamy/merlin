@@ -29,9 +29,9 @@ import (
 	uuid "github.com/satori/go.uuid"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg/agents"
-	"github.com/Ne0nd0g/merlin/pkg/api/messages"
-	"github.com/Ne0nd0g/merlin/pkg/modules/shellcode"
+	"github.com/al3agamy/merlin/pkg/agents"
+	"github.com/al3agamy/merlin/pkg/api/messages"
+	"github.com/al3agamy/merlin/pkg/modules/shellcode"
 )
 
 // CD is used to change the agent's current working directory

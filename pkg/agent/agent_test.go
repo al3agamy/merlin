@@ -32,9 +32,9 @@ import (
 	"github.com/satori/go.uuid"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg/core"
-	"github.com/Ne0nd0g/merlin/pkg/messages"
-	"github.com/Ne0nd0g/merlin/test/testServer"
+	"github.com/al3agamy/merlin/pkg/core"
+	"github.com/al3agamy/merlin/pkg/messages"
+	"github.com/al3agamy/merlin/test/testServer"
 )
 
 // TestNewHTTPAgent ensure the agent.New function returns a http agent without error

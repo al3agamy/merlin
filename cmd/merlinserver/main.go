@@ -26,10 +26,10 @@ import (
 	"github.com/fatih/color"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg"
-	"github.com/Ne0nd0g/merlin/pkg/banner"
-	"github.com/Ne0nd0g/merlin/pkg/cli"
-	"github.com/Ne0nd0g/merlin/pkg/logging"
+	"github.com/al3agamy/merlin/pkg"
+	"github.com/al3agamy/merlin/pkg/banner"
+	"github.com/al3agamy/merlin/pkg/cli"
+	"github.com/al3agamy/merlin/pkg/logging"
 )
 
 // Global Variables
