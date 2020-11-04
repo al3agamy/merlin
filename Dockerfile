@@ -1,12 +1,12 @@
 FROM golang:stretch
 
 # Build the Docker image first
-#  > sudo docker build -t merlin .
+#  > sudo docker build -t merlinmg .
 
 # To start the Merlin Server, run
-#  > sudo docker run -it -p 443:443 --mount type=bind,src=/tmp,dst=/go/src/github.com/al3agamy/merlin/data merlin
+#  > sudo docker run -it -p 443:443 --mount type=bind,src=/tmp,dst=/go/src/github.com/al3agamy/merlin/data merlinmg
 
-RUN apt-get update && apt-get install -y git make nanovim gcc-mingw-w64
+RUN apt-get update && apt-get install -y git make nano vim gcc-mingw-w64
 WORKDIR $GOPATH/src/github.com/al3agamy
 RUN git clone https://github.com/al3agamy/merlin
 
